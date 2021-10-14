@@ -2,9 +2,11 @@
   "name": "sbw-finger-ssh-node",
   "version": "1.0.0",
   "description": "# 这个库用来实现远远程执行ssh命令",
-  "main": "index.js",
+  "main": "sbw-finger-ssh.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stop": "pkill -f sbw-finger-ssh.js",
+    "start": "nohup npm run serv > /dev/null 2>&1 &",
+    "serv": "node sbw-finger-ssh.js"
   },
   "repository": {
     "type": "git",
