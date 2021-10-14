@@ -1,0 +1,22 @@
+{
+  "name": "sbw-finger-ssh-node",
+  "version": "1.0.0",
+  "description": "# 这个库用来实现远远程执行ssh命令",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiliconBasedWorker/sbw-finger-ssh-node.git"
+  },
+  "author": "Wolf Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiliconBasedWorker/sbw-finger-ssh-node/issues"
+  },
+  "homepage": "https://github.com/SiliconBasedWorker/sbw-finger-ssh-node#readme",
+  "dependencies": {
+    "socket.io-client": "^4.2.0"
+  }
+}
