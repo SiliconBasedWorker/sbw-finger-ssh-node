@@ -1,5 +1,5 @@
 {
-  "aspherAddr": "0.0.0.0",
+  "aspherAddr": "http://0.0.0.0:3001",
   "deviceName": "sbw-finger-ssh",
   "token": "token",
   "authPass": "pass"

@@ -67,11 +67,6 @@ const setupSSHSocketIO = function (socket) {
   });
 };
 
-module.exports = {
-  setupSSHSocketIO,
-  dataStruct,
-};
-
 if (require.main === module) {
   const deviceCfg = require("./config.json");
   installSSHSocketIO(deviceCfg);
